@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="GBK" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557615</millis>
+  <sequence>778</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Behaviors have finished loading(Behavior(WalkRightAlongIEAndSit,100,WalkRightAlongIEAndSit))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557615</millis>
+  <sequence>779</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Start Reading(Behavior(WalkLeftAlongIEAndJump,100,WalkLeftAlongIEAndJump))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557615</millis>
+  <sequence>780</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Behaviors have finished loading(Behavior(WalkLeftAlongIEAndJump,100,WalkLeftAlongIEAndJump))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557615</millis>
+  <sequence>781</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Start Reading(Behavior(WalkRightAlongIEAndJump,100,WalkRightAlongIEAndJump))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557615</millis>
+  <sequence>782</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Behaviors have finished loading(Behavior(WalkRightAlongIEAndJump,100,WalkRightAlongIEAndJump))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557615</millis>
+  <sequence>783</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Start Reading(Behavior(HoldOntoIEWall,100,HoldOntoIEWall))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557615</millis>
+  <sequence>784</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Behaviors have finished loading(Behavior(HoldOntoIEWall,100,HoldOntoIEWall))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557615</millis>
+  <sequence>785</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Start Reading(Behavior(ClimbIEWall,100,ClimbIEWall))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557615</millis>
+  <sequence>786</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Behaviors have finished loading(Behavior(ClimbIEWall,100,ClimbIEWall))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557615</millis>
+  <sequence>787</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Start Reading(Behavior(ClimbIEBottom,100,ClimbIEBottom))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557615</millis>
+  <sequence>788</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Behaviors have finished loading(Behavior(ClimbIEBottom,100,ClimbIEBottom))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557615</millis>
+  <sequence>789</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Start Reading(Behavior(GrabIEBottomLeftWall,100,GrabIEBottomLeftWall))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557615</millis>
+  <sequence>790</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Behaviors have finished loading(Behavior(GrabIEBottomLeftWall,100,GrabIEBottomLeftWall))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557615</millis>
+  <sequence>791</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Start Reading(Behavior(GrabIEBottomRightWall,100,GrabIEBottomRightWall))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557616</millis>
+  <sequence>792</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Behaviors have finished loading(Behavior(GrabIEBottomRightWall,100,GrabIEBottomRightWall))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557616</millis>
+  <sequence>793</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Start Reading(Behavior(JumpFromLeftWall,50,JumpFromLeftWall))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557616</millis>
+  <sequence>794</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Behaviors have finished loading(Behavior(JumpFromLeftWall,50,JumpFromLeftWall))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557616</millis>
+  <sequence>795</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Start Reading(Behavior(JumpFromRightWall,50,JumpFromRightWall))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557616</millis>
+  <sequence>796</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Behaviors have finished loading(Behavior(JumpFromRightWall,50,JumpFromRightWall))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557616</millis>
+  <sequence>797</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Start Reading(Behavior(JumpOnIELeftWall,50,JumpOnIELeftWall))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557616</millis>
+  <sequence>798</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Behaviors have finished loading(Behavior(JumpOnIELeftWall,50,JumpOnIELeftWall))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557616</millis>
+  <sequence>799</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Start Reading(Behavior(JumpOnIERightWall,50,JumpOnIERightWall))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557616</millis>
+  <sequence>800</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Behaviors have finished loading(Behavior(JumpOnIERightWall,50,JumpOnIERightWall))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557616</millis>
+  <sequence>801</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Start Reading(Behavior(ThrowIEFromLeft,20,ThrowIEFromLeft))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557616</millis>
+  <sequence>802</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Behaviors have finished loading(Behavior(ThrowIEFromLeft,20,ThrowIEFromLeft))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557616</millis>
+  <sequence>803</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Start Reading(Behavior(ThrowIEFromRight,20,ThrowIEFromRight))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557616</millis>
+  <sequence>804</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Behaviors have finished loading(Behavior(ThrowIEFromRight,20,ThrowIEFromRight))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557616</millis>
+  <sequence>805</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Start Reading(Behavior(WalkAndThrowIEFromRight,20,WalkAndThrowIEFromRight))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557616</millis>
+  <sequence>806</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Behaviors have finished loading(Behavior(WalkAndThrowIEFromRight,20,WalkAndThrowIEFromRight))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557616</millis>
+  <sequence>807</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Start Reading(Behavior(WalkAndThrowIEFromLeft,20,WalkAndThrowIEFromLeft))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557616</millis>
+  <sequence>808</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Behaviors have finished loading(Behavior(WalkAndThrowIEFromLeft,20,WalkAndThrowIEFromLeft))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557616</millis>
+  <sequence>809</sequence>
+  <logger>com.group_finity.mascot.config.Configuration</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.config.Configuration</class>
+  <method>load</method>
+  <thread>1</thread>
+  <message>Configuration loaded successfully</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557616</millis>
+  <sequence>810</sequence>
+  <logger>com.group_finity.mascot.Main</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.Main</class>
+  <method>createTrayIcon</method>
+  <thread>1</thread>
+  <message>create a tray icon</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557672</millis>
+  <sequence>811</sequence>
+  <logger>com.group_finity.mascot.Main</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.Main</class>
+  <method>createMascot</method>
+  <thread>1</thread>
+  <message>create a mascot</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:17</date>
+  <millis>1721667557690</millis>
+  <sequence>812</sequence>
+  <logger>com.group_finity.mascot.Mascot</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.Mascot</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Created a mascot (mascot1)</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:18</date>
+  <millis>1721667558000</millis>
+  <sequence>813</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Default Behavior(mascot1,Behavior(SitAndSpinHead))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:18</date>
+  <millis>1721667558048</millis>
+  <sequence>814</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Lost Ground (mascot1,Behavior(SitAndSpinHead))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:18</date>
+  <millis>1721667558053</millis>
+  <sequence>815</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Fall))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:18</date>
+  <millis>1721667558085</millis>
+  <sequence>816</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Out of the screen bounds(mascot1,Behavior(Fall))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:18</date>
+  <millis>1721667558085</millis>
+  <sequence>817</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Fall))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:21</date>
+  <millis>1721667561117</millis>
+  <sequence>818</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>30</thread>
+  <message>Default Behavior(mascot1,Behavior(Dragged))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:22</date>
+  <millis>1721667562032</millis>
+  <sequence>819</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>30</thread>
+  <message>Default Behavior(mascot1,Behavior(Thrown))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:26</date>
+  <millis>1721667566644</millis>
+  <sequence>820</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>30</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:28</date>
+  <millis>1721667568682</millis>
+  <sequence>821</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:28</date>
+  <millis>1721667568698</millis>
+  <sequence>822</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:30</date>
+  <millis>1721667570682</millis>
+  <sequence>823</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:30</date>
+  <millis>1721667570690</millis>
+  <sequence>824</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:32</date>
+  <millis>1721667572680</millis>
+  <sequence>825</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:32</date>
+  <millis>1721667572691</millis>
+  <sequence>826</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:34</date>
+  <millis>1721667574682</millis>
+  <sequence>827</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:34</date>
+  <millis>1721667574714</millis>
+  <sequence>828</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:36</date>
+  <millis>1721667576681</millis>
+  <sequence>829</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:36</date>
+  <millis>1721667576693</millis>
+  <sequence>830</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:38</date>
+  <millis>1721667578682</millis>
+  <sequence>831</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:38</date>
+  <millis>1721667578694</millis>
+  <sequence>832</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:40</date>
+  <millis>1721667580682</millis>
+  <sequence>833</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:40</date>
+  <millis>1721667580697</millis>
+  <sequence>834</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:42</date>
+  <millis>1721667582681</millis>
+  <sequence>835</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:42</date>
+  <millis>1721667582690</millis>
+  <sequence>836</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:44</date>
+  <millis>1721667584682</millis>
+  <sequence>837</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:44</date>
+  <millis>1721667584692</millis>
+  <sequence>838</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:46</date>
+  <millis>1721667586682</millis>
+  <sequence>839</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:46</date>
+  <millis>1721667586692</millis>
+  <sequence>840</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:48</date>
+  <millis>1721667588682</millis>
+  <sequence>841</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:48</date>
+  <millis>1721667588694</millis>
+  <sequence>842</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:50</date>
+  <millis>1721667590682</millis>
+  <sequence>843</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:50</date>
+  <millis>1721667590695</millis>
+  <sequence>844</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:52</date>
+  <millis>1721667592682</millis>
+  <sequence>845</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:52</date>
+  <millis>1721667592693</millis>
+  <sequence>846</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:54</date>
+  <millis>1721667594681</millis>
+  <sequence>847</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:54</date>
+  <millis>1721667594693</millis>
+  <sequence>848</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:56</date>
+  <millis>1721667596683</millis>
+  <sequence>849</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:56</date>
+  <millis>1721667596694</millis>
+  <sequence>850</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:58</date>
+  <millis>1721667598682</millis>
+  <sequence>851</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T12:59:58</date>
+  <millis>1721667598698</millis>
+  <sequence>852</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T13:00:00</date>
+  <millis>1721667600681</millis>
+  <sequence>853</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T13:00:00</date>
+  <millis>1721667600704</millis>
+  <sequence>854</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T13:00:02</date>
+  <millis>1721667602683</millis>
+  <sequence>855</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T13:00:02</date>
+  <millis>1721667602689</millis>
+  <sequence>856</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T13:00:04</date>
+  <millis>1721667604682</millis>
+  <sequence>857</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T13:00:04</date>
+  <millis>1721667604691</millis>
+  <sequence>858</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T13:00:06</date>
+  <millis>1721667606682</millis>
+  <sequence>859</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T13:00:06</date>
+  <millis>1721667606687</millis>
+  <sequence>860</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T13:00:08</date>
+  <millis>1721667608681</millis>
+  <sequence>861</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T13:00:08</date>
+  <millis>1721667608688</millis>
+  <sequence>862</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T13:00:10</date>
+  <millis>1721667610682</millis>
+  <sequence>863</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T13:00:10</date>
+  <millis>1721667610688</millis>
+  <sequence>864</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T13:00:12</date>
+  <millis>1721667612682</millis>
+  <sequence>865</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T13:00:12</date>
+  <millis>1721667612686</millis>
+  <sequence>866</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T13:00:14</date>
+  <millis>1721667614682</millis>
+  <sequence>867</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T13:00:14</date>
+  <millis>1721667614688</millis>
+  <sequence>868</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T13:00:16</date>
+  <millis>1721667616682</millis>
+  <sequence>869</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T13:00:16</date>
+  <millis>1721667616688</millis>
+  <sequence>870</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T13:00:18</date>
+  <millis>1721667618681</millis>
+  <sequence>871</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T13:00:18</date>
+  <millis>1721667618688</millis>
+  <sequence>872</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T13:00:20</date>
+  <millis>1721667620682</millis>
+  <sequence>873</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T13:00:20</date>
+  <millis>1721667620685</millis>
+  <sequence>874</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T13:00:22</date>
+  <millis>1721667622680</millis>
+  <sequence>875</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T13:00:22</date>
+  <millis>1721667622687</millis>
+  <sequence>876</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T13:00:24</date>
+  <millis>1721667624683</millis>
+  <sequence>877</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>next</method>
+  <thread>31</thread>
+  <message>Completed Behavior (mascot1,Behavior(Dream))</message>
+</record>
+<record>
+  <date>2024-07-22T13:00:24</date>
+  <millis>1721667624689</millis>
+  <sequence>878</sequence>
+  <logger>com.group_finity.mascot.behavior.UserBehavior</logger>
+  <level>INFO</level>
+  <class>com.group_finity.mascot.behavior.UserBehavior</class>
+  <method>init</method>
+  <thread>31</thread>
+  <message>Default Behavior(mascot1,Behavior(Dream))</message>
+</record>
