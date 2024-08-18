@@ -1,3 +1,55 @@
+Shimeji桌宠：霍星-魔角侦探
+Shimeji Desktop Pet: Huo Xing - MojoSpy
+
+==== 有关该桌宠 About this Shimeji ====
+
+原作品：魔角侦探
+
+画师：太公小望（钟鸣）
+
+动画修改/图片修改：B站@孤独的小路灯(https://space.bilibili.com/168821367)
+
+软件：Shimeji-ee (http://kilkakon.com/shimeji)
+
+代码维护：Kilkakon
+
+同人作品 非商用
+
+这是以《魔角侦探》中霍星为形象制作的桌宠，十年前的赛博旧物。它由望姐（太公小望）在百度贴吧“魔角侦探吧”首次发布。作为童年白月光形象的桌宠，它给我留下了深刻的印象。
+如今原件依赖的JAVA6已逐渐远去，甚至提供桌宠代码的Shimeji制作组也已停止开发。幸好有热心网友至今仍在维护代码，也给了霍星桌宠重生的机会。
+我在原件的基础上修改，并增加了一些动画。希望这个桌宠能够继续陪伴喜欢《魔角侦探》和霍星的朋友。
+
+原件资源：魔角侦探官方资源@魔角侦探吧(https://pan.baidu.com/s/1jLEpC#list/path=%2Fsharelink2000836218-174267432978472%2F%E9%AD%94%E8%A7%92%E4%BE%A6%E6%8E%A2%E5%AE%98%E6%96%B9%E8%B5%84%E6%BA%90%40%E9%AD%94%E8%A7%92%E4%BE%A6%E6%8E%A2%E5%90%A7&parentPath=%2Fsharelink2000836218-174267432978472)
+
+资源包里面还有齐乐天、小桃和蓝叉叉团子的桌宠（有谁知道蓝团子的作者么）。这些都是基于JAVA6的版本
+
+（望姐似乎退网了，唯一能搜到的是她22年的时候还在 非人哉。希望她如果知道桌宠修复了会开心~）
+
+==== 注意 ====
+
+本桌宠的简中汉化文件基于使用场景特化了。如果你需要制作自己的桌宠并使用这个汉化文件，请使用language_zh_formal.properties（也会在Kilkakon的下一个版本中加入）。
+
+运行环境要求
+
+1. Windows Vista或更高版本
+2. 安装 Java 8
+
+==== 使用方法 ====
+
+1. 下载本项目的zip文件并解压
+2. 运行Shimeji-ee.jar文件
+3. 在托盘区域会有一个星星图标
+4. 点击星星以召唤霍星
+5. 右键星星以查看主菜单
+6. 右键桌宠以查看该桌宠的菜单
+7. 退出：右键星星或桌宠，选择“关闭程序”
+8. 卸载：删除解压出的文件夹即可
+9. 教程（b站搬运）：https://www.bilibili.com/video/BV1AG4y1T7Ch
+10. 常见问题FAQ（b站搬运）：https://www.bilibili.com/video/BV1ke4y1N7Dg
+11. Discord 群: https://discord.gg/dcJGAn3
+
+以下是原版的README：
+
 Shimeji-ee: Shimeji English Enhanced
 
 Shimeji-ee is a Windows desktop mascot that freely wanders and plays around the screen.  The mascot is very configurable; its actions are defined through xml and its animations/images can be (painstakingly) customized.  Shimeji was originally created by Yuki Yamada of Group Finity (http://www.group-finity.com/Shimeji/).  This branch of the original Shimeji project not only translates the program/source to English, but adds additional enhancements to Shimeji by Kilkakon and other members of the community.
