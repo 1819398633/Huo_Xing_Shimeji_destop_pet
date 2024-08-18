@@ -4,13 +4,9 @@ Shimeji Desktop Pet: Huo Xing - MojoSpy
 ==== 有关该桌宠 About this Shimeji ====
 
 原作品：魔角侦探
-
 画师：太公小望（钟鸣）
-
 动画修改/图片修改：B站@孤独的小路灯(https://space.bilibili.com/168821367)
-
 软件：Shimeji-ee (http://kilkakon.com/shimeji)
-
 代码维护：Kilkakon
 
 同人作品 非商用
@@ -19,22 +15,38 @@ Shimeji Desktop Pet: Huo Xing - MojoSpy
 如今原件依赖的JAVA6已逐渐远去，甚至提供桌宠代码的Shimeji制作组也已停止开发。幸好有热心网友至今仍在维护代码，也给了霍星桌宠重生的机会。
 我在原件的基础上修改，并增加了一些动画。希望这个桌宠能够继续陪伴喜欢《魔角侦探》和霍星的朋友。
 
+如有建议，欢迎留言！
+
 原件资源：魔角侦探官方资源@魔角侦探吧(https://pan.baidu.com/s/1jLEpC#list/path=%2Fsharelink2000836218-174267432978472%2F%E9%AD%94%E8%A7%92%E4%BE%A6%E6%8E%A2%E5%AE%98%E6%96%B9%E8%B5%84%E6%BA%90%40%E9%AD%94%E8%A7%92%E4%BE%A6%E6%8E%A2%E5%90%A7&parentPath=%2Fsharelink2000836218-174267432978472)
-
 资源包里面还有齐乐天、小桃和蓝叉叉团子的桌宠（有谁知道蓝团子的作者么）。这些都是基于JAVA6的版本
-
 （望姐似乎退网了，唯一能搜到的是她22年的时候还在 非人哉。希望她如果知道桌宠修复了会开心~）
 
-==== 注意 ====
+Original Work: MojoSpy
+Artist: Taigong Xiaowang (Zhong Ming)
+Animation Modification/Image Modification: Bilibili@孤独的小路灯(https://space.bilibili.com/168821367)
+Software: Shimeji-ee (http://kilkakon.com/shimeji)
+Code Maintenance: Kilkakon
+
+Fan Work Non-commercial
+
+This is a desktop pet made based on Huo Xing, a character from MojoSpy, an old work from ten years ago. It was first released by Taigong Xiaowang in the Baidu Tieba "魔角侦探吧". As a child, this desktop pet left a deep impression on me.
+In this new version, I modified the original images and added some animations. I hope this desktop pet can continue to accompany friends who like MojoSpy and Huo Xing.
+Please feel free to leave a comment if you have any suggestions!
+
+
+==== 注意 Attention ====
 
 本桌宠的简中汉化文件基于使用场景特化了。如果你需要制作自己的桌宠并使用这个汉化文件，请使用language_zh_formal.properties（也会在Kilkakon的下一个版本中加入）。
 
-运行环境要求
+The Simplified Chinese language file here is specialized for this Shimeji. If you want to make your own Shimeji and use this language file, please use language_zh_formal.properties (which will also be included in Kilkakon's next Shimeji release).
+
+
+==== 运行环境要求 (See English below) ====
 
 1. Windows Vista或更高版本
 2. 安装 Java 8
 
-==== 使用方法 ====
+==== 使用方法 (See English below)====
 
 1. 下载Huo_Xing_Destop_Pet.zip文件并解压
 2. 运行Shimeji-ee.jar文件
@@ -51,7 +63,9 @@ Shimeji Desktop Pet: Huo Xing - MojoSpy
 13. Discord 群: https://discord.gg/dcJGAn3
 
 以下是原版的README：
+Here is the original README:
 
+=============================================================
 Shimeji-ee: Shimeji English Enhanced
 
 Shimeji-ee is a Windows desktop mascot that freely wanders and plays around the screen.  The mascot is very configurable; its actions are defined through xml and its animations/images can be (painstakingly) customized.  Shimeji was originally created by Yuki Yamada of Group Finity (http://www.group-finity.com/Shimeji/).  This branch of the original Shimeji project not only translates the program/source to English, but adds additional enhancements to Shimeji by Kilkakon and other members of the community.
@@ -79,6 +93,8 @@ Homepage: http://kilkakon.com/shimeji
 2. Java 8
 
 ==== How to Start ==== 
+
+Download Huo_Xing_Destop_Pet.zip and extract it.
 
 Double Click the Shimeji-ee file (Shimeji-ee.jar).
 
