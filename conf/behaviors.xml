@@ -21,7 +21,7 @@
 		
 		<Behavior Name="SitAndSpinHead" Frequency="100">
 			<NextBehaviorList Add="true">
-				<BehaviorReference Name="SitDown" Frequency="100" />
+				<BehaviorReference Name="SitDown" Frequency="500" />
 				<BehaviorReference Name="SitAndFaceMouse" Frequency="1" />
 			</NextBehaviorList>
 		</Behavior>
@@ -58,16 +58,23 @@
 					<BehaviorReference Name="CrawlAlongWorkAreaFloor" Frequency="100" Condition="${mascot.environment.floor.isOn(mascot.anchor)}" />
 				</NextBehaviorList>
 			</Behavior>
+			<Behavior Name="WakeFromDream" Frequency="0" Hidden="true"/>
+			<Behavior Name="WakeFromSleep" Frequency="0" Hidden="true"/>
 			<Behavior Name="Sleep" Frequency="100">
 				<NextBehaviorList Add="false">
-					<BehaviorReference Name="Sleep" Frequency="100" />	<!-- self loop -->
+					<BehaviorReference Name="Sleep" Frequency="200" />	<!-- self loop -->
+					<BehaviorReference Name="Dream" Frequency="100" />
+					<BehaviorReference Name="WakeFromSleep" Frequency="30" />
 				</NextBehaviorList>
 			</Behavior>
-			<Behavior Name="Dream" Frequency="100">
+			<Behavior Name="Dream" Frequency="0" Hidden="false">
 				<NextBehaviorList Add="false">
 					<BehaviorReference Name="Dream" Frequency="100" />	<!-- self loop -->
+					<BehaviorReference Name="Sleep" Frequency="200" />
+					<BehaviorReference Name="WakeFromDream" Frequency="30" />
 				</NextBehaviorList>
 			</Behavior>
+
 			<Behavior Name="SplitIntoTwo" Frequency="50" Condition="#{mascot.totalCount &lt; 50}" />
 		</Condition>
 
@@ -90,7 +97,8 @@
 		
 		<!-- On Work Area Top Facing -->
 		<Condition Condition="#{mascot.environment.ceiling.isOn(mascot.anchor)}">
-			<Behavior Name="ClimbAlongCeiling" Frequency="100" />
+			<Behavior Name="FlyAlongCeiling" Frequency="100" />
+			<!-- <Behavior Name="ClimbAlongCeiling" Frequency="100" /> -->
 		</Condition>
 		
 		
@@ -154,7 +162,8 @@
 
 		<!-- On the Bottom of IE -->
 		<Condition Condition="#{mascot.environment.activeIE.bottomBorder.isOn(mascot.anchor)}">
-			<Behavior Name="ClimbIEBottom" Frequency="100" Hidden="true" />
+			<Behavior Name="FlyIEBottom" Frequency="100" Hidden="true" />
+			<!-- <Behavior Name="ClimbIEBottom" Frequency="100" Hidden="true" /> -->
 			<Behavior Name="GrabIEBottomLeftWall" Frequency="100" Hidden="true" />
 			<Behavior Name="GrabIEBottomRightWall" Frequency="100" Hidden="true" />
 		</Condition>

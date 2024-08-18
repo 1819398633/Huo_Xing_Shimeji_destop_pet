@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- version is xml version -->
+<Mascot>
+    <Information>
+        <Name>3000A 出动！</Name>
+        <PreviewImage>preview.png</PreviewImage>
+        <SplashImage>splash.jpg</SplashImage>
+        <Artist Name="太公小望(钟鸣)" /> <!-- URL."http://kilkakon.com" -->
+        <Scripter Name="B站@孤独的小路灯" URL="https://space.bilibili.com/168821367" />
+        <Support Name="魔角侦探 Mojospy"  /> <!--URL="http://kilkakon.com" -->
+        </Information>
+</Mascot>

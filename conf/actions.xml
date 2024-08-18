@@ -79,7 +79,8 @@
 		</Action>
 
 		<Action Name="SitAndLookAtMouse" Type="Stay" BorderType="Floor">
-			<Animation Condition="#{(mascot.environment.cursor.y * 4 + mascot.environment.cursor.x) % }">		<!-- The original version is Look up, but now it's look "down" -->
+			<Animation Condition="#{mascot.environment.cursor.y &gt; mascot.environment.screen.height/2}">
+				<!-- The original version is Look up, but now it's look "down" -->
 				<Pose Image="/shime26.png" ImageAnchor="64,128" Velocity="0,0" Duration="250" />
 			</Animation>
 			<Animation>
@@ -148,6 +149,8 @@
 			</Animation>
 		</Action>
 
+		<!-- Sleeping & wake up-->
+
 		<Action Name="SleepZ" Type="Stay" BorderType="Floor">
 			<Animation>
 				<Pose Image="/sleep.png" ImageAnchor="64,128" Velocity="0,0" Duration="50" />
@@ -158,20 +161,65 @@
 		<Action Name="DreamDoras" Type="Stay" BorderType="Floor" Duration="50">
 			<Animation>
 				<Pose Image="/dream_doras.png" ImageAnchor="64,128" Velocity="0,0" Duration="50" />
+
+				<Hotspot Shape="Ellipse" Origin="72,30" Size="50,50" Behavior="WakeFromDream" />
 			</Animation>
 		</Action>
 
 		<Action Name="DreamQi" Type="Stay" BorderType="Floor" Duration="50">
 			<Animation>
 				<Pose Image="/dream_qi.png" ImageAnchor="64,128" Velocity="0,0" Duration="50" />
+				<Hotspot Shape="Ellipse" Origin="72,30" Size="50,50" Behavior="WakeFromDream" />
 			</Animation>
 		</Action>
 
 		<Action Name="DreamX" Type="Stay" BorderType="Floor" Duration="50">
 			<Animation>
 				<Pose Image="/dream_x.png" ImageAnchor="64,128" Velocity="0,0" Duration="50" />
+				<Hotspot Shape="Ellipse" Origin="72,30" Size="50,50" Behavior="WakeFromDream" />
 			</Animation>
 		</Action>
+
+		<Action Name="DreamJing" Type="Stay" BorderType="Floor" Duration="50">
+			<Animation>
+				<Pose Image="/dream_jing.png" ImageAnchor="64,128" Velocity="0,0" Duration="50" />
+				<Hotspot Shape="Ellipse" Origin="72,30" Size="50,50" Behavior="WakeFromDream" />
+			</Animation>
+		</Action>
+
+		<Action Name="DreamEye" Type="Stay" BorderType="Floor" Duration="50">
+			<Animation>
+				<Pose Image="/dream_eye.png" ImageAnchor="64,128" Velocity="0,0" Duration="50" />
+				<Hotspot Shape="Ellipse" Origin="72,30" Size="50,50" Behavior="WakeFromDream" />
+			</Animation>
+		</Action>
+
+		<Action Name="DreamSingle" Type="Select">
+			<!-- <ActionReference Name="DreamQi" Condition="${(mascot.environment.cursor.x * 4 + mascot.environment.cursor.y) % 5 == 0}"/> -->
+			<ActionReference Name="DreamEye" Condition="${(17*Date.now()+13*mascot.anchor.x+7) % 5 == 0}"/>
+			<ActionReference Name="DreamJing" Condition="${(17*Date.now()+13*mascot.anchor.x+7) % 5 == 1}"/>
+			<ActionReference Name="DreamDoras" Condition="${(17*Date.now()+13*mascot.anchor.x+7) % 5 == 2}"/>
+			<ActionReference Name="DreamX" Condition="${(17*Date.now()+13*mascot.anchor.x+7) % 5 == 3}"/>
+			<ActionReference Name="DreamQi"  Condition="${(17*Date.now()+13*mascot.anchor.x+7) % 5 == 4}"/>
+		</Action>
+
+		<Action Name="WakeFromDreamAction" Type="Animate" BorderType="Floor">
+			<Animation>
+				<Pose Image="/awake.png" ImageAnchor="64,128" Velocity="0,0" Duration="10" />
+				<Pose Image="/shime19.png" ImageAnchor="64,128" Velocity="0,0" Duration="4" />
+			</Animation>
+		</Action>
+
+		<Action Name="WakeFromSleepAction" Type="Animate" BorderType="Floor">
+			<Animation>
+				<Pose Image="/shime20.png" ImageAnchor="64,128" Velocity="0,0" Duration="4" />
+				<Pose Image="/shime21.png" ImageAnchor="64,128" Velocity="0,0" Duration="4" />
+				<Pose Image="/shime20.png" ImageAnchor="64,128" Velocity="0,0" Duration="4" />
+				<Pose Image="/shime21.png" ImageAnchor="64,128" Velocity="0,0" Duration="15" />
+				<Pose Image="/shime19.png" ImageAnchor="64,128" Velocity="0,0" Duration="4" />
+			</Animation>
+		</Action>
+
 
 		<!-- Ceiling -->
 
@@ -180,8 +228,10 @@
 				<Pose Image="/shime23.png" ImageAnchor="64,48" Velocity="0,0" Duration="250" />
 			</Animation>
 		</Action>
+
+		<!-- this shimeji do not have ClimbCeiling action-->
 		
-		<Action Name="ClimbCeiling" Type="Move">	<!-- No BorderType="Ceiling" -->
+		<Action Name="Flying" Type="Move">	<!-- No BorderType="Ceiling" -->
 			<Animation>
 				<Pose Image="/shime25.png" ImageAnchor="64,48" Velocity="-1,0" Duration="10" />
 				<Pose Image="/shime24.png" ImageAnchor="64,48" Velocity="-1,-1" Duration="10" />
@@ -226,7 +276,7 @@
 		<Action Name="FallWithIe" Type="Embedded" Class="com.group_finity.mascot.action.FallWithIE"
 			 IeOffsetX="0" IeOffsetY="-40">
 			<Animation>
-				<Pose Image="/shime34.png" ImageAnchor="64,128" Velocity="0,0" Duration="250" />
+				<Pose Image="/shime31.png" ImageAnchor="64,128" Velocity="0,0" Duration="250" />
 			</Animation>
 		</Action>
 		<Action Name="WalkWithIe" BorderType="Floor" Type="Embedded" Class="com.group_finity.mascot.action.WalkWithIE"
@@ -419,18 +469,30 @@
 			<ActionReference Name="Sprawl" Duration="${500+Math.random()*1000}" />
 		</Action>
 
-		<Action Name="Sleep" Type="Sequence" Loop="true" Duration="${250+(Math.random()%0.2+1)*50}">
+		<!-- Sleep & Wake -->
+
+		<Action Name="Sleep" Type="Sequence" Loop="true" Duration="${230+(Math.random()%0.2+1)*50}">
 			<ActionReference Name="Look" LookRight="false"/>
 			<ActionReference Name="SleepZ"/>
 		</Action>
 
 		<Action Name="Dream" Type="Sequence" Loop="false">
 			<ActionReference Name="Look" LookRight="false"/>
-			<Action Type="Select">
-				<ActionReference Name="DreamQi" Condition="${(mascot.environment.cursor.x * 4 + mascot.environment.cursor.y) % 3 == 0}"/>
-				<ActionReference Name="DreamDoras" Condition="${(mascot.environment.cursor.x * 4 + mascot.environment.cursor.y) % 3 == 1}"/>
-				<ActionReference Name="DreamX"/>
-			</Action>
+			<ActionReference Name="DreamSingle" Duration="50"/>
+			<ActionReference Name="DreamSingle" Duration="50"/>
+			<ActionReference Name="DreamSingle" Duration="50"/>
+		</Action>
+
+		<Action Name="WakeFromDream" Type="Sequence" Loop="false">
+			<!-- not need look -->
+			<ActionReference Name="WakeFromDreamAction"/>
+			<ActionReference Name="Stand" Duration="${50+Math.random()*10}"/>
+		</Action>
+
+		<Action Name="WakeFromSleep" Type="Sequence" Loop="false">
+			<!-- not need look -->
+			<ActionReference Name="WakeFromSleepAction"/>
+			<ActionReference Name="Stand" Duration="${50+Math.random()*10}"/>
 		</Action>
 
 		<!-- <Action Name="SitWhileDanglingLegs" Type="Sequence" Loop="false"> -->
@@ -544,12 +606,16 @@
 			<ActionReference Name="ClimbWall" TargetY="#{mascot.environment.workArea.top+100}" />
 			<ActionReference Name="Offset" Y="-70" />
 			<ActionReference Name="Look" />
-			<ActionReference Name="ClimbCeiling" TargetX="${mascot.lookRight ? mascot.environment.workArea.left+Math.random()*100 : mascot.environment.workArea.right-Math.random*100}" />
+			<ActionReference Name="Flying" TargetX="${mascot.lookRight ? mascot.environment.workArea.left+Math.random()*100 : mascot.environment.workArea.right-Math.random*100}" />
+			<!-- <ActionReference Name="ClimbCeiling" TargetX="${mascot.lookRight ? mascot.environment.workArea.left+Math.random()*100 : mascot.environment.workArea.right-Math.random*100}" /> -->
 		</Action>
 
-		<Action Name="ClimbAlongCeiling" Type="Sequence" Loop="false">
-			<ActionReference Name="ClimbCeiling" TargetX="${mascot.environment.workArea.left+64+Math.random()*(mascot.environment.workArea.width-128)}" />
+		<Action Name="FlyAlongCeiling" Type="Sequence" Loop="false">
+			<ActionReference Name="Flying" TargetX="${mascot.environment.workArea.left+64+Math.random()*(mascot.environment.workArea.width-128)}" />
 		</Action>
+		<!-- <Action Name="ClimbAlongCeiling" Type="Sequence" Loop="false">
+			<ActionReference Name="ClimbCeiling" TargetX="${mascot.environment.workArea.left+64+Math.random()*(mascot.environment.workArea.width-128)}" />
+		</Action> -->
 
 		<Action Name="WalkAlongIECeiling" Type="Sequence" Loop="false">
 			<ActionReference Name="Walk" TargetX="${mascot.environment.activeIE.left+64+Math.random()*(mascot.environment.activeIE.width-128)}" />
@@ -636,19 +702,25 @@
 			<ActionReference Name="Stand" Duration="${10+Math.random()*10}" />
 			<ActionReference Name="Walk" TargetX="${mascot.lookRight ? mascot.environment.activeIE.left+Math.random()*100 : mascot.environment.activeIE.right-Math.random*100}" />
 		</Action>
-
+<!-- 
 		<Action Name="ClimbIEBottom" Type="Sequence" Loop="false">
 			<ActionReference Name="ClimbCeiling" TargetX="${mascot.environment.activeIE.left+64+(Math.random()*mascot.environment.activeIE.width-128)}" />
+		</Action> -->
+
+		<Action Name="FlyIEBottom" Type="Sequence" Loop="false">
+			<ActionReference Name="Flying" TargetX="${mascot.environment.activeIE.left+64+(Math.random()*mascot.environment.activeIE.width-128)}" />
 		</Action>
 
 		<Action Name="GrabIEBottomLeftWall" Type="Sequence" Loop="false">
-			<ActionReference Name="ClimbCeiling" TargetX="#{mascot.environment.activeIE.left}" />
+			<ActionReference Name="Flying" TargetX="#{mascot.environment.activeIE.left}" />
+			<!-- <ActionReference Name="ClimbCeiling" TargetX="#{mascot.environment.activeIE.left}" /> -->
 			<ActionReference Name="Look" />
 			<ActionReference Name="ClimbWall" TargetY="#{mascot.environment.activeIE.bottom-64}" />
 		</Action>
 
 		<Action Name="GrabIEBottomRightWall" Type="Sequence" Loop="false">
-			<ActionReference Name="ClimbCeiling" TargetX="#{mascot.environment.activeIE.right}" />
+			<ActionReference Name="Flying" TargetX="#{mascot.environment.activeIE.right}" />
+			<!-- <ActionReference Name="ClimbCeiling" TargetX="#{mascot.environment.activeIE.right}" /> -->
 			<ActionReference Name="Look" />
 			<ActionReference Name="ClimbWall" TargetY="#{mascot.environment.activeIE.bottom-64}" />
 		</Action>
@@ -681,7 +753,7 @@
 			<ActionReference Name="Stand" Duration="${10+Math.random()*50}" />
 			<ActionReference Name="Stare" Duration="${50+Math.random()*50}"/>
 			<ActionReference Name="Look" />
-			<ActionReference Name="Dance" Duration="${50+Math.random()*50}" />
+			<ActionReference Name="Dance" Duration="${100+Math.random()*50}" />
 
 		</Action>
 		<Action Name="ThrowIEFromRight" Type="Sequence" Loop="false">
@@ -690,11 +762,11 @@
 			<ActionReference Name="WalkWithIe" TargetX="#{mascot.environment.workArea.left+400}" />
 			<ActionReference Name="ThrowIe" />
 			<ActionReference Name="Stand" Duration="${10+Math.random()*50}" />
-			<ActionReference Name="Stare" Duration="${50+Math.random()*50}"/>
+			<ActionReference Name="Stare" Duration="${100+Math.random()*50}"/>
 			<ActionReference Name="Look" />
-			<ActionReference Name="Dance" Duration="${50+Math.random()*50}" />
+			<ActionReference Name="Dance" Duration="${100+Math.random()*50}" />
 		</Action>
-		<Action Name="WalkAndThrowIEFromRight" Type="Sequence" Loop="false">
+		<Action Name="WalkAndThrowIEFromLeft" Type="Sequence" Loop="false">
 			<ActionReference Name="Jumping" TargetX="${mascot.environment.activeIE.left}" TargetY="${mascot.environment.activeIE.bottom+40}" />
 			<ActionReference Name="FallWithIe" />
 			<ActionReference Name="RunWithIe" TargetX="#{mascot.environment.workArea.right-400}" />
@@ -702,9 +774,9 @@
 			<ActionReference Name="Stand" Duration="${10+Math.random()*50}" />
 			<ActionReference Name="Stare" Duration="${50+Math.random()*50}"/>
 			<ActionReference Name="Look" />
-			<ActionReference Name="Dance" Duration="${50+Math.random()*50}" />
+			<ActionReference Name="Dance" Duration="${100+Math.random()*50}" />
 		</Action>
-		<Action Name="WalkAndThrowIEFromLeft" Type="Sequence" Loop="false">
+		<Action Name="WalkAndThrowIEFromRight" Type="Sequence" Loop="false">
 			<ActionReference Name="Jumping" TargetX="${mascot.environment.activeIE.right}" TargetY="${mascot.environment.activeIE.bottom+40}" />
 			<ActionReference Name="FallWithIe" />
 			<ActionReference Name="RunWithIe" TargetX="#{mascot.environment.workArea.left+400}" />
@@ -712,7 +784,7 @@
 			<ActionReference Name="Stand" Duration="${10+Math.random()*50}" />
 			<ActionReference Name="Stare" Duration="${50+Math.random()*50}"/>
 			<ActionReference Name="Look" />
-			<ActionReference Name="Dance" Duration="${50+Math.random()*50}" />
+			<ActionReference Name="Dance" Duration="${100+Math.random()*50}" />
 		</Action>
 
 		<Action Name="ChaseMouse" Type="Sequence" Loop="false">
@@ -742,26 +814,26 @@
 			</Action>
 
 			<!-- Chase -->
-			<ActionReference Name="Look" LookRight="${mascot.anchor.x &lt; mascot.environment.cursor.x}" />
-			<ActionReference Name="Dash" TargetX="${ mascot.anchor.x+(mascot.environment.cursor.x-mascot.anchor.x)*Math.random()/2 }" />
+			<!-- <ActionReference Name="Look" LookRight="${mascot.anchor.x &lt; mascot.environment.cursor.x}" /> -->
+			<ActionReference Name="Dash" TargetX="#{ mascot.anchor.x+(mascot.environment.cursor.x-mascot.anchor.x)*Math.random()/2 }" />
 			<ActionReference Name="Tripping" Condition="${Math.random() &lt; 0.05}" />
 
 			<!-- Fast Dash with highly possible Tripping (0.3), or Normal Dash with possibile Tripping (0.7) -->
-			<ActionReference Name="Look" LookRight="${mascot.anchor.x &lt; mascot.environment.cursor.x}" />
+			<!-- <ActionReference Name="Look" LookRight="${mascot.anchor.x &lt; mascot.environment.cursor.x}" /> -->
 			<Action Type="Select">
 				<Action Type="Sequence" Condition="${Math.random() &lt; 0.3}" >
-					<ActionReference Name="FastDash" TargetX="${ mascot.anchor.x+(mascot.environment.cursor.x-mascot.anchor.x + 100)*Math.random() }" />
+					<ActionReference Name="FastDash" TargetX="#{ mascot.anchor.x+(mascot.environment.cursor.x-mascot.anchor.x + 100)*Math.random() }" />
 					<ActionReference Name="Tripping" Condition="${Math.random() &lt; 0.5}"/>
 				</Action>
 				<Action Type="Sequence">
-					<ActionReference Name="Dash" TargetX="${ mascot.anchor.x+(mascot.environment.cursor.x-mascot.anchor.x)*Math.random() }" />
+					<ActionReference Name="Dash" TargetX="#{ mascot.anchor.x+(mascot.environment.cursor.x-mascot.anchor.x)*Math.random() }" />
 					<ActionReference Name="Tripping" Condition="${Math.random() &lt; 0.05}" />
 				</Action>
 			</Action>
 			<!-- Final Dash -->
-			<ActionReference Name="Look" LookRight="${mascot.anchor.x &lt; mascot.environment.cursor.x}" />
-			<ActionReference Name="Dash" TargetX="${mascot.environment.cursor.x+Gap}"
-				Gap="${ mascot.anchor.x &lt; mascot.environment.cursor.x ?
+			<!-- <ActionReference Name="Look" LookRight="#{mascot.anchor.x &lt; mascot.environment.cursor.x}" /> -->
+			<ActionReference Name="Dash" TargetX="#{mascot.environment.cursor.x+Gap}"
+				Gap="#{ mascot.anchor.x &lt; mascot.environment.cursor.x ?
 					-Math.min( mascot.environment.cursor.x-mascot.anchor.x, Math.random()*200) :
 					Math.min( mascot.anchor.x-mascot.environment.cursor.x, Math.random()*200 ) }" />	 
 					<!-- Gap is the distance to the cursor, but random  -->
