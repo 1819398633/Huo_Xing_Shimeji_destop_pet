@@ -57,17 +57,19 @@
 
 ## 使用方法
 
-1. 下载本项目的zip文件并解压
+1. 下载`Huo_Xing_Destop_Pet.zip`文件并解压
 2. 运行`Shimeji-ee.jar`文件
 3. 在托盘区域会有一个星星图标
 4. 点击星星以召唤霍星
 5. 右键星星以查看主菜单
 6. 右键桌宠以查看该桌宠的菜单
-7. 退出：右键星星或桌宠，选择“关闭程序”
-8. 卸载：删除解压出的文件夹即可
-9. 教程（b站搬运）：[https://www.bilibili.com/video/BV1AG4y1T7Ch](https://www.bilibili.com/video/BV1AG4y1T7Ch)
-10. 常见问题FAQ（b站搬运）：[https://www.bilibili.com/video/BV1ke4y1N7Dg](https://www.bilibili.com/video/BV1ke4y1N7Dg)
-11. Discord 群: [https://discord.gg/dcJGAn3](https://discord.gg/dcJGAn3)
+7. 如果不需要每次启动显示信息页面，请在主菜单取消选择“启动时总是显示信息栏”
+8. 其他请自己探索
+9. 退出：右键星星或桌宠，选择“关闭程序”
+10. 卸载：删除解压出的文件夹即可
+11. 教程（b站搬运）：[https://www.bilibili.com/video/BV1AG4y1T7Ch](https://www.bilibili.com/video/BV1AG4y1T7Ch)
+12. 常见问题FAQ（b站搬运）：[https://www.bilibili.com/video/BV1ke4y1N7Dg](https://www.bilibili.com/video/BV1ke4y1N7Dg)
+13. Discord 群: [https://discord.gg/dcJGAn3](https://discord.gg/dcJGAn3)
 
 以下是原版的README：
 
